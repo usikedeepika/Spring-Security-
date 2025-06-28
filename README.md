@@ -7,7 +7,7 @@ User sends login credentials (username and password) to the authentication endpo
 If credentials are valid, the server generates a JWT token and sends it back in the response.
 
 3.Client Usage:
-Client stores the token (usually in localStorage or sessionStorage) and includes it in the Authorization header as:
+Client stores the token (usually in localStorage or sessionStorage) 
 
 4.On each API request, the server verifies the JWT token. If valid, access is granted.
 
